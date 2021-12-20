@@ -7,6 +7,8 @@
       <input type="text" placeholder="email" v-model="editdata.email">
       <input type="text" placeholder="phone" v-model="editdata.phonenumber">
   </div>
+
+  <button @click="editSave(editdata.key, $event)">Save </button>
 </form>
 </div>
 

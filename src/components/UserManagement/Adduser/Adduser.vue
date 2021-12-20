@@ -6,6 +6,11 @@
     <h1>Add User</h1>
     <p>Please fill in this form to add an user.</p>
     <hr>
+     <ul>
+      <li v-for="err in error" :key="err">
+      {{err}}
+      </li>
+    </ul>
 
     <label for="name"><b>Name</b></label>
     <input type="text" placeholder="Enter Name" name="name" id="name" v-model="name" required>

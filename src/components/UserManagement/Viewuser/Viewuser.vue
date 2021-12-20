@@ -20,7 +20,7 @@
       </tbody>
     </table>
     <div v-if="edit" class="editpopup">
-              <edit :editdata="editdata"/>
+              <edit :editdata="editdata" :edit ="edit"/>
     </div>
    
   </div>
